@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+
+body{
+  background-image: url("fundo1.gif");
+  overflow-x: hidden; 
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-family:'Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif';
+  font-size: 80px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: rgb(222, 0, 167);
+}
+
+.inicio{
+  background-size: cover;
+}
+
+h2{
+  font-family:'Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif';
+  font-size: 30px;
+  color: rgb(223, 113, 195);
+}
+
+.descrtion{
+  padding: 50px 10px;
+}
+
+label{
+  position: relative;
+  font-weight: 600;
+  color: white;
+ 
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  color: rgb(245, 247, 245);
+}
+
+input{
+  color: white;
+  background-color: rgb(20, 2, 33);
+  border: solid;
+  border-radius: 20px;
+  padding: 10px;
+  width: 250px;
+  align-items: center;
+  display: flex;
+  opacity: .9;
+}
+
+.remover{
+  border-radius: 20px;
+  padding: 5px;
+  background-color: rgb(128, 0, 96);
+  border:solid rgb(29, 6, 68);
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+}
+
+button{
+  border-radius: 20px;
+  padding: 10px;
+  background-color: rgb(125, 104, 201);
+  border:solid rgb(79, 9, 243);
+  font-weight: 600;
+  cursor: pointer;
+  opacity: .9;
+}
+
+button:hover{
+  color:rgb(218, 235, 218);
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px rgb(224, 240, 227);
+}
+
+
+
+#teste {
+  position: relative;
+  left: 39%;
+  font-weight: 600;
+  color: white;
+}
